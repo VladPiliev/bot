@@ -12,6 +12,6 @@ class TestController extends Controller
         Http::post('https://api.tlgr.org/bot5111107809:AAGuxAaKiRnHna9wnAWSqh62QRQJP-fKP2E/sendMessage',[
             'chat_id' => 778399078,
             'text' => 'Hi'
-        ])
+        ]);
     }
 }
